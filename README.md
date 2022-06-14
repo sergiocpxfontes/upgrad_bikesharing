@@ -78,22 +78,31 @@ On the [Jupyter notebook file](bikerentalstudy.ipynb) you will find:
   	- Handling of categorical variables
   	- Handling of dummy variables
   - Data visualization based on the variables nature to determine possible correlations
+  - Rescaling
   - Model creation
   - Model testing
   - Notes explaining the steps and decisions made.
 
 [Here](bikerentalstudy.pdf) you will find our analisys and conclusions (also present bellow) of the Bike Rental study and [here](linearregressionsubjectivequestions.pdf) you will find answers to several questions that are also part of this assignment/project.
 
-
+We have also found during our analysis that if we consider each year separatly ou model is a much better fit. The Jupyter notebook files that confirm this statement can de found [here for 2018](bikerentalstudy_2018.ipynb) and [here for 2019](bikerentalstudy_2019.ipynb).
 
 ## Conclusions
 
 After analysis, we can make the following statements:
 
-- Based on data visualization a positive correlation migth exist bettween the temperature ("temp" and "atemp") and the number of rentals (either "registered", "casual" or "cnt")
-- Based on data visualization "wind" or "humidity" doesn't seem to have any correlation with the number of rentals (either "registered", "casual" or "cnt")
-- Based on data visualization we can conclude that on non working days we have more "casual" rentals while on working days we have more "registered" rentals
-- Based on data visualization we can conclude that better weather conditions result on more bike rentals
+- Based on data visualization:
+	- a positive correlation migth exist bettween the temperature ("temp" and "atemp") and the number of rentals (either "registered", "casual" or "cnt")
+	- "wind" or "humidity" doesn't seem to have any correlation with the number of rentals (either "registered", "casual" or "cnt")
+	- we can conclude that on non working days we have more "casual" rentals while on working days we have more "registered" rentals
+	- we can conclude that better weather conditions result on more bike rentals
+	- After rescaling it seems that temperature ("temp" and "atemp") have a stronger correlation with the number of rentals (0.65). While other variables like "summer", "fall", "hum" and "rain" don't seem to have strong correlations with the number of rentals.
+- Base on model creation and validation:
+	- When considering all independent variables the R2 and Adjusted R2 are very similar (0.57 and 0.56) meaning tha the model explains 57% of the variance, however because the coeficient values are high the model needs to be improved by removing variables with high coliniarity. 
+	- Variables like "atemp","fall" and "hum" have strong colinearity and do not add any value to the multi-linear regression model, so they have been removed.
+	- The final model explains 48% meaning is not consistant. This seems to be caused by the year variable. If we create the "same" model but only considering each year:
+		- 2018 » The model will explain 74% of the variance
+		- 2019 » The model will explain 70% of the variance 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
