@@ -100,7 +100,7 @@ After analysis, we can make the following statements:
 - Base on model creation and validation:
 	- When considering all independent variables the R2 and Adjusted R2 are very similar (0.57 and 0.56) meaning tha the model explains 57% of the variance, however because the coeficient values are high the model needs to be improved by removing variables with high coliniarity. 
 	- Variables like "atemp","fall" and "hum" have strong colinearity and do not add any value to the multi-linear regression model, so they have been removed.
-	- The final model explains 48% meaning is not consistant. This seems to be caused by the year variable. If we create the "same" model but only considering each year:
+	- The final model explains 48% meaning is not a very good fit. This seems to be caused by the year variable.In fact we would expect the year to have some linear relation with the number of bike rentals but there seems to be seasonal and not linear relation. If we create the "same" model but only considering each year:
 		- 2018 » The model will explain 74% of the variance
 		- 2019 » The model will explain 70% of the variance 
 
