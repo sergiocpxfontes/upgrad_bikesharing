@@ -59,10 +59,30 @@ Creating the model will require the usage of machine learning (more details on h
 - Step 5 » Predictions and evaluations on the test set
 
 ## Analysis
-- analysis
-- analysis
-- nalysis
-- analysis
+
+Within our analysis we looked at the following variables as to how they correlate to bike rental count: 
+
+  - temp
+  - atemp
+  - hum
+  - windspeed
+  - season
+  - weathersit
+  - holiday
+  - workingday
+
+On the [Jupyter notebook file](bikerentalstudy.ipynb) you will find:
+  
+  - Operations made on the initial data, including:
+  	- Data quality checks
+  	- Handling of categorical variables
+  	- Handling og dummy variables
+  - Data visualization based on the variables nature to determine possible correlations
+  - Notes explaining the steps and decisions made.
+
+[Here](bikerentalstudy.pdf) you will find our analisys and conclusions (also present bellow) of the Bike Rental study and [here](linearregressionsubjectivequestions.pdf) you will find answers to several questions that are also part of this assignment/project.
+
+
 
 ## Conclusions
 - Conclusion 1 from the analysis
