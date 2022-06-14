@@ -46,6 +46,8 @@ The mode will be based on the Bike Sharing dataset available [here](day.csv) and
 - registered: count of registered users
 - cnt: count of total rental bikes including both casual and registered
 
+[Here](linearregressionsubjectivequestions.pdf) you will find answers to several questions that are also part of this assignment/project.
+
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 ## Methodology
 
@@ -82,8 +84,6 @@ On the [Jupyter notebook file](bikerentalstudy.ipynb) you will find:
   - Model creation
   - Model testing
   - Notes explaining the steps and decisions made.
-
-[Here](bikerentalstudy.pdf) you will find our analisys and conclusions (also present bellow) of the Bike Rental study and [here](linearregressionsubjectivequestions.pdf) you will find answers to several questions that are also part of this assignment/project.
 
 We have also found during our analysis that if we consider each year separatly ou model is a much better fit. The Jupyter notebook files that confirm this statement can de found [here for 2018](bikerentalstudy_2018.ipynb) and [here for 2019](bikerentalstudy_2019.ipynb).
 
