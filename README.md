@@ -23,7 +23,7 @@ The objective of this project is to:
 
 To achieve we need to create a model to predict the shared bikes demand.
 
-The mode will be based on the Bike Sharing dataset available [here](day.csv). The consists on the following variables:
+The mode will be based on the Bike Sharing dataset available [here](day.csv) and consists on the following variables:
 
 - instant: record index
 - dteday : date
