@@ -85,10 +85,13 @@ On the [Jupyter notebook file](bikerentalstudy.ipynb) you will find:
 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+
+After analysis, we can make the following statements:
+
+- Based on data visualization a positive correlation migth exist bettween the temperature ("temp" and "atemp") and the number of rentals (either "registered", "casual" or "cnt")
+- Based on data visualization "wind" or "humidity" doesn't seem to have any correlation with the number of rentals (either "registered", "casual" or "cnt")
+- Based on data visualization we can conclude that on non working days we have more "casual" rentals while on working days we have more "registered" rentals
+- Based on data visualization we can conclude that better weather conditions result on more bike rentals
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
