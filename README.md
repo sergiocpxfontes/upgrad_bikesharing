@@ -47,11 +47,16 @@ The mode will be based on the Bike Sharing dataset available [here](day.csv). Th
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 ## Methodology
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-- 
+
+Creating the model will require the usage of machine learning (more details on https://en.wikipedia.org/wiki/Machine_learning) and to do so, several steps  need to be made to ensure we understand the data and that dataset is ready to be submited to the algorithms. The steps will be executed with a Jupyter Notebook file and will follow the following order:
+
+- Step 0 » Importing the necessary python modules and packages
+- Step 1 » Reading, undertanding and visualize the data
+- Step 2 » Preparing Data
+- Step 3 » Training the model
+- Step 4 » Residual analisys
+- Step 5 » Predictions and evaluations on the test set
+
 ## Conclusions
 - Conclusion 1 from the analysis
 - Conclusion 2 from the analysis
