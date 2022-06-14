@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Linear Regression Assignment - upGrad
+> Build a model for predection of bike rental daily count base on the environmental and seasonal settings
 
 
 ## Table of Contents
@@ -28,21 +28,27 @@
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+
+- Jupyter Notebook (6.4.5)
+- Python (3.9.7)
+  - nump (1.20.3)
+  - pandas (1.3.4)
+  - matplotlib.pyplot
+  - seaborn (0.11.2)
+  - sklearn (0.24.2)
+    - model_selection (train_test_split)  
+    - preprocessing (MinMaxScaler)
+  - statsmodels (0.12.2)
+    - api
+    - stats.outliers_influence (variance_inflation_factor)
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- [1] Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@sergiocpxfontes] - feel free to contact me!
 
 
 <!-- Optional -->
