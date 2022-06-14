@@ -46,7 +46,7 @@ The mode will be based on the Bike Sharing dataset available [here](day.csv) and
 - registered: count of registered users
 - cnt: count of total rental bikes including both casual and registered
 
-[Here](linearregressionsubjectivequestions.pdf) you will find answers to several questions that are also part of this assignment/project.
+[Here](LinearRegressionAssignment_SubjectiveQuestions.pdf) you will find answers to several questions that are also part of this assignment/project.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 ## Methodology
