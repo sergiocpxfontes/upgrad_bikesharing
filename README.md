@@ -60,7 +60,7 @@ Creating the model will require the usage of machine learning (more details on h
 
 ## Analysis
 
-Within our analysis we looked at the following variables as to how they correlate to bike rental count: 
+Within our analysis we looked at the following variables as to how they correlate to bike rental count (some of then resulted on the introductions of derived variables): 
 
   - temp
   - atemp
