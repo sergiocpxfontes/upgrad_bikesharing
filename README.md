@@ -11,10 +11,38 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+
+BoomBikes is a company that rents shared bikes. Their business has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. They want be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. To achieve their goal they need to understand what factors have impact on demand for bike rentals.
+
+The objective of this project is to:
+
+ - Determine what variables are significant in predicting the demand for shared bikes;
+ - Determine how well the significant variables describe the demand.
+
+To achieve we need to create a model to predict the shared bikes demand.
+
+The mode will be based on the Bike Sharing dataset available here. The consists on the following variables:
+
+- instant: record index
+- dteday : date
+- season : season (1:spring, 2:summer, 3:fall, 4:winter)
+- yr : year (0: 2018, 1:2019)
+- mnth : month ( 1 to 12)
+- holiday : weather day is a holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)
+- weekday : day of the week
+- workingday : if day is neither weekend nor holiday is 1, otherwise is 0.
+- weathersit : 
+	- 1: Clear, Few clouds, Partly cloudy, Partly cloudy
+	- 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+	- 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+	- 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+- temp : temperature in Celsius
+- atemp: feeling temperature in Celsius
+- hum: humidity
+- windspeed: wind speed
+- casual: count of casual users
+- registered: count of registered users
+- cnt: count of total rental bikes including both casual and registered
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
