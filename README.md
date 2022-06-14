@@ -5,6 +5,7 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
+* [Methodology](#methodology)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
@@ -45,7 +46,12 @@ The mode will be based on the Bike Sharing dataset available [here](day.csv). Th
 - cnt: count of total rental bikes including both casual and registered
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+## Methodology
+- Conclusion 1 from the analysis
+- Conclusion 2 from the analysis
+- Conclusion 3 from the analysis
+- Conclusion 4 from the analysis
+- 
 ## Conclusions
 - Conclusion 1 from the analysis
 - Conclusion 2 from the analysis
