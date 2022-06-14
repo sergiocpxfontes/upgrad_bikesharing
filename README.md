@@ -76,8 +76,10 @@ On the [Jupyter notebook file](bikerentalstudy.ipynb) you will find:
   - Operations made on the initial data, including:
   	- Data quality checks
   	- Handling of categorical variables
-  	- Handling og dummy variables
+  	- Handling of dummy variables
   - Data visualization based on the variables nature to determine possible correlations
+  - Model creation
+  - Model testing
   - Notes explaining the steps and decisions made.
 
 [Here](bikerentalstudy.pdf) you will find our analisys and conclusions (also present bellow) of the Bike Rental study and [here](linearregressionsubjectivequestions.pdf) you will find answers to several questions that are also part of this assignment/project.
